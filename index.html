@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16690368865"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16690368865');
+</script>
+<!-- Event snippet for pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16690368865/ewDXCO6ogtAZEOGiy5Y-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M380ZPK941"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M380ZPK941');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBIHUB lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <meta name="description"
+  content="Fedezz fel egy nagyszerű módot az online keresetre! Nézz videókat a TikTok-on, és értékeld őket a Telegram programunkon keresztül. Kezdj el pénzt keresni könnyedén és szórakozva most!">
+  <style>
+    /* Stili generali */
+    .new-regular, .new-bold, .new-regular-italic, .new-bold-italic {
+      font-family: "B612", sans-serif;
+    }
+    .new-regular { font-weight: 400; font-style: normal; }
+    .new-bold { font-weight: 700; font-style: normal; }
+    .new-regular-italic { font-weight: 400; font-style: italic; }
+    .new-bold-italic { font-weight: 700; font-style: italic; }
+
+    body { margin: 0; padding: 0; text-align: center; font-family: "B612", sans-serif; }
+    header { background-color: #fff; color: #000; padding: 10px; font-size: 20px; font-weight: bolder; }
+    .new-logo img { vertical-align: middle; margin-right: 10px; }
+
+    /* Stili della sezione principale */
+    main {}
+
+    /* Stili dell'immagine grande */
+    .new-big-image, .new-big-image_2 {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      filter: blur();
+    }
+
+    .new-big-image {
+      background-image: url("14.jpg");
+    }
+
+    .new-big-image_2 {
+      background-image: url("13.jpg");
+    }
+
+    .new-big-image-text { color: #fff; padding: 20px; border-radius: 25px; }
+
+    /* Stili del pulsante */
+    .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+
+    @keyframes myAnim {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+    /* Stili della sezione */
+    .new-section, .new-section_2 { margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-around; }
+
+    /* Stili della seconda sezione */
+    .new-section_2 { padding: 30px; text-align: left; background-color: #ffd7ef; border-radius: 25px; }
+
+    .new-section div { flex-basis: calc(33.33% - 20px); margin-bottom: 20px; }
+    .new-section img { display: block; width: 100%; height: auto; border-radius: 25px; }
+    .new-section p { text-align: center; margin-top: 10px; }
+
+    h2 { font-size: 40px; }
+    p { font-size: 20px; margin: 10px; }
+
+    /* Stili responsive */
+    @media only screen and (max-width: 768px) {
+      .new-section, .new-section_2 { flex-wrap: wrap; }
+      .new-section div { flex-basis: calc(100% - 20px); margin-right: 0; }
+      h2 { font-size: 30px; }
+    }
+
+    /* Stili del testimonial */
+    .new-otziv { display: flex; flex-direction: column; align-items: flex-start; background-color: #ffd7ef; color: #000; border-radius: 25px; padding: 5px; }
+    .new-otziv > img { width: 80px; height: 80px; object-fit: cover; border-radius: 50%; }
+    .new-otziv > p { text-align: left; }
+
+    .new-name { font-weight: bolder; font-style: normal; }
+
+    /* Stili del blocco */
+    .new-block { display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; }
+    .new-title { width: 90%; font-size: 20px; font-weight: bolder; color: #000; padding: 10px; cursor: pointer; }
+    .new-description { width: 70%; display: none; padding: 10px; background-color: #fff; }
+    .new-span_bold { font-weight: bolder; }
+
+    hr { background-color: #333; width: 50%; }
+    .new-link1 { text-decoration: none; color: #ffd7ef; }
+
+    /* Stili del piè di pagina */
+    footer { background-color: #333; color: #fff; padding: 20px 0; }
+    footer a { color: #ffd7ef; text-decoration: none; margin: 0 10px; }
+  </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+            const fullCookieValue = parts.pop().split(';').shift();
+            const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+            return cidValue;
+        }
+        return null;
+    }
+
+    const cid = getCid('_ga');
+
+    // Получаем все кнопки с атрибутом onclick
+    var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+    // Перебираем каждую кнопку
+    buttons.forEach(function (button) {
+      // Получаем текущее значение атрибута onclick
+      var currentOnClick = button.getAttribute('onclick');
+
+      // Извлекаем параметры из текущей ссылки
+      var urlParams = new URLSearchParams(window.location.search);
+      var keywordParam = urlParams.get('utm_term');
+      var gclidParam = urlParams.get('gclid');
+
+      // Формируем новую ссылку с параметрами
+      var newOnClick = "return gtag_report_conversion('https://impurities-outface.click/qX8htCNd?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+      // Заменяем текущее значение атрибута onclick новым
+      button.setAttribute('onclick', newOnClick);
+    });
+  });
+</script>
+
+</head>
+<body>
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Large image section -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Egyszerű és passzív jövedelem</h1>
+        <h2>Nézz videókat, és jól keresd meg őket.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://impurities-outface.click/qX8htCNd')">👉 KEZD EL MOST 👈</button>
+      </div>
+    </div>
+    <!-- Main sections -->
+    <h2>10 eurót fizetünk videók nézéséért</h2>
+    <h3>100 euró bónusz minden új tagnak!</h3>
+    <!-- First section -->
+    <div class="new-section">
+      <div>
+        <img src="1.jpg">
+        <p>Független ügynökség vagyunk, amely a videótartalmak minőségét értékeli.</p>
+      </div>
+      <div>
+        <img src="2.jpg">
+        <p>A TikTok közösségi hálózattal és a Telegram alkalmazással együttműködve elindítottuk partnerprogramunkat. Ehhez független szakértőkre van szükségünk, és te is lehetsz egy közülük.</p>
+      </div>
+      <div>
+        <img src="3.jpg">
+        <p>Partnerprogramunk célja, hogy függetlenül értékelje a TikTok közösségi hálózaton található videótartalmak minőségét a Telegram alkalmazás segítségével. 10 eurót fizetünk a videók nézéséért!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://impurities-outface.click/qX8htCNd')">👉 KEZD EL MOST 👈</button>
+    </div>
+    <!-- Second section -->
+    <h2>Ajánlatunk</h2>
+    <div class="new-section_2">
+      <div>
+        <p><span class="new-span_bold">Rugalmas munkaidő</span> – Dolgozz bárhol és bármikor.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Nincs kereseti korlát</span> – Jövedelmed csak rajtad és az elkötelezettségeden múlik.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Napi kifizetések</span> – Kapd meg keresetedet bármilyen módon, amely számodra kényelmes.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Az oktatásod és szakmai tapasztalatod</span> nem számítanak.</p>
+      </div>
+    </div>
+    
+    <h2>Mit kell tennem?</h2>
+    <div class="new-section">
+      <div>
+        <img src="4.jpeg">
+        <p class="new-span_bold">Nézd meg a videókat</p>
+      </div>
+      <div>
+        <img src="5.jpeg">
+        <p class="new-span_bold">Értékeld a videókat, like-olj vagy dislike-olj.</p>
+      </div>
+      <div>
+        <img src="6.jpeg">
+        <p class="new-span_bold">És valódi pénzt keress ezért</p>
+      </div>
+    </div>
+
+    <div style="margin: 30px;">
+      <!-- How to participate section -->
+      <h2>Hogyan vehetsz részt partnerprogramunkban</h2>
+      <p>Programunkkal való keresés nagyon egyszerű. <span class="new-span_bold">Legalább 18 évesnek kell lenned, rendelkezned kell egy telefonnal, amelyen a Telegram alkalmazás telepítve van, és hozzáféréssel kell rendelkezned az internethez.</span> Ha még nem telepítetted a Telegram alkalmazást, letöltheted az <a class="new-link1" href="https://apps.apple.com/it/app/telegram-messenger/id686449807">App Store</a> vagy a <a class="new-link1" href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=it&gl=IT">Google Play Market</a> áruházból.</p>
+    </div>
+
+    <!-- Additional steps section -->
+    <div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+      <div>
+        1️⃣
+        <p class="new-span_bold">Lépj be a Telegram csatornánkba</p>
+      </div>
+      <div>
+        2️⃣
+        <p><span class="new-span_bold">Aktiváld személyes fiókodat.</span> Személyes fiókod aktiválásához nyomd meg a <span class="new-span_bold">START</span> gombot a Telegram csatornánkon.</p>
+      </div>
+      <div>
+        3️⃣
+        <p><span class="new-span_bold">Keress pénzt a videók nézésével és értékelésével.</span> Videókat fogsz kapni értékelésre. Nézd meg és értékeld a videókat, és valódi pénzt keress ezért.</p>
+      </div>
+    </div>
+
+    <!-- Testimonials section -->
+    <h2>Partnereink véleménye</h2>
+    <div class="new-section">
+      <div class="new-otziv">
+        <img src="7.png">
+        <p class="new-name">Michael</p>
+        <p>A partnerprogram egyszerűen fantasztikus! A kedvenc üzenetküldőmön vagyok, és videókat nézek a TikTok-on, miközben pénzt keresek. Egyszerűen zseniális!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="8.png">
+        <p class="new-name">Emma</p>
+        <p>Remek módja a keresetnek TikTok videók nézésével a Telegram-on. Kényelmes, gyors, és mindenekelőtt praktikus. Ajánlott!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="9.png">
+        <p class="new-name">Sofia</p>
+        <p>A Telegram-on történő kereseti partnerprogram az új felfedezésem! Csak menj a csatornára, nézd meg a videókat, és a pénz a számládra érkezik. Fantasztikus!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="10.png">
+        <p class="new-name">Wolfgang</p>
+        <p>Most a Telegram-om még érdekesebb ezzel a partnerprogrammal. Pénzt keresek TikTok videók nézésével. Nagyszerű!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="11.png">
+        <p class="new-name">Steven</p>
+        <p>A partnerprogramnak köszönhetően most már a hobbimmal keresek pénzt. Csak a Telegram-on vagyok, videókat nézek, és pénzt keresek érte. Szuper!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="12.png">
+        <p class="new-name">Matthias</p>
+        <p>Végre megtaláltam a tökéletes módját annak, hogy pénzt keressek a kedvenc videóim nézésével a TikTok-on és a Telegram-on. Kényelmes, gyors, és praktikus!</p>
+      </div>
+      
+    </div>
+
+    <!-- FAQ sections -->
+    <div class="new-block" onclick="toggleDescription(1)">
+      <div class="new-title">Mire van szükségem a partnerprogramban való részvételhez? 👈</div>
+      <hr>
+      <div id="description1" class="new-description">A kezdéshez legalább 18 évesnek kell lenned, rendelkezned kell egy okostelefonnal, amelyen a Telegram alkalmazás telepítve van, és hozzáféréssel kell rendelkezned az internethez.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(2)">
+      <div class="new-title">Hogyan regisztrálhatok a partnerprogramra? 👈</div>
+      <hr>
+      <div id="description2" class="new-description">Csak menj a Telegram csatornánkra, és nyomd meg a START gombot a csatornánkon.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(3)">
+      <div class="new-title">Hogyan aktiválhatom a személyes fiókomat? 👈</div>
+      <hr>
+      <div id="description3" class="new-description">Személyes fiókod aktiválásához nyomd meg a START gombot a Telegram csatornánkon.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(4)">
+      <div class="new-title">Mi különleges a partnerprogrammal való munkában? 👈</div>
+      <hr>
+      <div id="description4" class="new-description">A partnerprogramunkkal való munka nagyon egyszerű. Nézd meg azokat a videókat, amelyeket a TikTok kínál, értékeld őket, és pénzt kapsz érte.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(5)">
+      <div class="new-title">Milyen gyakran történnek a kifizetések? 👈</div>
+      <hr>
+      <div id="description5" class="new-description">A kifizetések akkor történnek, amikor elérted a minimális kifizetési küszöböt.</div>
+    </div>
+    <div class="new-big-image_2">
+      <div class="new-big-image-text">
+        <h1>Könnyű és passzív jövedelem</h1>
+        <h2>Nézz rövid videókat, és keress jó pénzt.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://impurities-outface.click/qX8htCNd')">👉 KEZD EL MOST 👈</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="policy.html">Adatvédelmi irányelvek</a>
+    <a href="terms.html">Felhasználási feltételek</a>
+  </footer>
+  <script>
+    function toggleDescription(index) {
+      var description = document.getElementById("description" + index);
+      if (description.style.display === "block") {
+        description.style.display = "none";
+      } else {
+        description.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
